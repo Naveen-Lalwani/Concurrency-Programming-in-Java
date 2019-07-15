@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.coursera.concurrent.BoruvkaPerformanceTest" time="64.798" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.1+13-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\navee\Desktop\Coursera\Week 4\miniproject_4"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\navee\Desktop\Coursera\Week 4\miniproject_4"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.1+13-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\navee\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\navee\Desktop\Java Projects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf538378368807519162.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-11.0.1/bin/server;C:/Program Files/Java/jdk-11.0.1/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\navee\AppData\Local\Microsoft\WindowsApps;C:\Users\navee\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Users\navee\AppData\Local\particle\bin;C:\OpenSSL-Win32\bin;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Windows\system32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\navee"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="navee"/>
+    <property name="java.class.path" value="C:\Users\navee\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\navee\Desktop\Coursera\Week 4\miniproject_4\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testInputUSAroadFLA" classname="edu.coursera.concurrent.BoruvkaPerformanceTest" time="24.801">
+    <error type="java.lang.AssertionError">java.lang.AssertionError
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.driver(BoruvkaPerformanceTest.java:93)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.testInputUSAroadFLA(BoruvkaPerformanceTest.java:108)
+</error>
+    <system-err><![CDATA[  src/main/resources/boruvka/USA-road-d.FLA.gr.gz - edu.coursera.concurrent.boruvka.sequential.SeqBoruvka - 838
+  src/main/resources/boruvka/USA-road-d.FLA.gr.gz - edu.coursera.concurrent.boruvka.sequential.SeqBoruvka - 944
+  src/main/resources/boruvka/USA-road-d.FLA.gr.gz - edu.coursera.concurrent.boruvka.sequential.SeqBoruvka - 955
+  src/main/resources/boruvka/USA-road-d.FLA.gr.gz - edu.coursera.concurrent.boruvka.sequential.SeqBoruvka - 886
+  src/main/resources/boruvka/USA-road-d.FLA.gr.gz - edu.coursera.concurrent.boruvka.sequential.SeqBoruvka - 1009
+Exception in thread "Thread-1" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-6" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-2" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-7" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-5" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-3" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-4" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-0" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+  src/main/resources/boruvka/USA-road-d.FLA.gr.gz - edu.coursera.concurrent.ParBoruvka - 13
+Exception in thread "Thread-10" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-9" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-11" Exception in thread "Thread-8" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-15" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-12" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-13" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-14" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+  src/main/resources/boruvka/USA-road-d.FLA.gr.gz - edu.coursera.concurrent.ParBoruvka - 13
+Exception in thread "Thread-16" Exception in thread "Thread-17" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-22" Exception in thread "Thread-19" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-20" Exception in thread "Thread-23" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-21" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-18" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+  src/main/resources/boruvka/USA-road-d.FLA.gr.gz - edu.coursera.concurrent.ParBoruvka - 7
+Exception in thread "Thread-28" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-31" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-27" Exception in thread "Thread-30" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-24" Exception in thread "Thread-26" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-29" Exception in thread "Thread-25" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+  src/main/resources/boruvka/USA-road-d.FLA.gr.gz - edu.coursera.concurrent.ParBoruvka - 5
+Exception in thread "Thread-35" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-37" Exception in thread "Thread-34" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-36" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-38" Exception in thread "Thread-32" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-39" Exception in thread "Thread-33" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+  src/main/resources/boruvka/USA-road-d.FLA.gr.gz - edu.coursera.concurrent.ParBoruvka - 4
+]]></system-err>
+  </testcase>
+  <testcase name="testInputUSAroadNE" classname="edu.coursera.concurrent.BoruvkaPerformanceTest" time="39.997">
+    <error type="java.lang.AssertionError">java.lang.AssertionError
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.driver(BoruvkaPerformanceTest.java:93)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.testInputUSAroadNE(BoruvkaPerformanceTest.java:119)
+</error>
+    <system-err><![CDATA[  src/main/resources/boruvka/USA-road-d.NE.gr.gz - edu.coursera.concurrent.boruvka.sequential.SeqBoruvka - 1816
+  src/main/resources/boruvka/USA-road-d.NE.gr.gz - edu.coursera.concurrent.boruvka.sequential.SeqBoruvka - 1587
+  src/main/resources/boruvka/USA-road-d.NE.gr.gz - edu.coursera.concurrent.boruvka.sequential.SeqBoruvka - 1754
+  src/main/resources/boruvka/USA-road-d.NE.gr.gz - edu.coursera.concurrent.boruvka.sequential.SeqBoruvka - 1398
+  src/main/resources/boruvka/USA-road-d.NE.gr.gz - edu.coursera.concurrent.boruvka.sequential.SeqBoruvka - 1418
+Exception in thread "Thread-40" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-45" Exception in thread "Thread-47" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-42" Exception in thread "Thread-41" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-46" Exception in thread "Thread-43" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-44" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+  src/main/resources/boruvka/USA-road-d.NE.gr.gz - edu.coursera.concurrent.ParBoruvka - 6
+Exception in thread "Thread-49" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-53" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-50" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-52" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-51" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-54" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-48" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-55" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+  src/main/resources/boruvka/USA-road-d.NE.gr.gz - edu.coursera.concurrent.ParBoruvka - 6
+Exception in thread "Thread-56" Exception in thread "Thread-58" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-59" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-62" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-57" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-60" Exception in thread "Thread-63" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-61" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+  src/main/resources/boruvka/USA-road-d.NE.gr.gz - edu.coursera.concurrent.ParBoruvka - 4
+Exception in thread "Thread-68" Exception in thread "Thread-66" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-67" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-65" Exception in thread "Thread-64" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-71" Exception in thread "Thread-70" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-69" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+  src/main/resources/boruvka/USA-road-d.NE.gr.gz - edu.coursera.concurrent.ParBoruvka - 4
+Exception in thread "Thread-75" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-72" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-74" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-77" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-78" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-73" Exception in thread "Thread-76" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Exception in thread "Thread-79" java.lang.IllegalMonitorStateException
+	at java.base/java.util.concurrent.locks.ReentrantLock$Sync.tryRelease(ReentrantLock.java:149)
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1302)
+	at java.base/java.util.concurrent.locks.ReentrantLock.unlock(ReentrantLock.java:439)
+	at edu.coursera.concurrent.ParBoruvka.computeBoruvka(ParBoruvka.java:42)
+	at edu.coursera.concurrent.BoruvkaPerformanceTest.lambda$0(BoruvkaPerformanceTest.java:72)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+  src/main/resources/boruvka/USA-road-d.NE.gr.gz - edu.coursera.concurrent.ParBoruvka - 11
+]]></system-err>
+  </testcase>
+</testsuite>
